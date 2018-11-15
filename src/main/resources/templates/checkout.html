@@ -32,7 +32,7 @@
 							<button type="submit" class="btn btn-warning btn-block">Place
 								your order</button>
 							<p style="font-size: smaller;">
-								By placing your order, you agree to Le's Bookstore <a href="#">privacy</a>
+								By placing your order, you agree to Zen's Bookstore <a href="#">privacy</a>
 								notice and <a href="#">conditions</a> of use.
 							</p>
 							<hr />
@@ -394,7 +394,7 @@
 											<div class="col-xs-2">
 												<a th:href="@{/bookDetail(id=${cartItem.book.id})}"> <img
 													class="img-responsive shelf-book"
-													th:src="#{adminPath}+@{/image/book/}+${cartItem.book.id}+'.png'"
+													th:src="@{https://zengadminportal.herokuapp.com/image/book/}+${cartItem.book.id}+'.png'"
 													style="width: 70px;" />
 												</a>
 											</div>
